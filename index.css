@@ -1,0 +1,27 @@
+body{
+    background-color: #eeb54b;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    color:white;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+img{
+    width: 300px;
+    margin: 0 auto;
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #f7a50c;
+    color:white;
+    border: none;
+    box-shadow: 19px 42px 35px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
