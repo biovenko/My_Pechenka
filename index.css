@@ -2,6 +2,7 @@ body{
     background-color: #eeb54b;
     display: flex;
     flex-direction: column;
+    height: 100vh
 }
 h1{
     font-size: 50px;
@@ -9,7 +10,14 @@ h1{
     color:white;
     width: 400px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+p{
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px;
 }
 img{
     width: 300px;
@@ -24,4 +32,8 @@ button{
     border: none;
     box-shadow: 19px 42px 35px 0px rgba(34, 60, 80, 0.2);
     border-radius: 10px;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: #81796a;
 }
